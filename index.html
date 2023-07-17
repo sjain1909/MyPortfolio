@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a979d5ea43.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/mylogonew.png" style="width: 200px;" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-circle-chevron-down" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Web Development </p>
+
+        <h1>Hi, I'm<span> Shreya </span><br />Jain</h1>
+      </div>
+    </div>
+  </div>
+
+  <!------about------------->
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/shreya.png" alt="img">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title"> About Me</h1><br />
+          <p> Hello Everyone! My name is Shreya Jain and I'm from Garhakota (Sagar) M.P. I have completed my 10th and
+            12th
+            from Garhakota and and I am currently pursuing a B.Tech degree (2025) in Computer Science from Shri G.S.
+            Institute of Science and
+            Technology.</p>
+          <p>
+            I have developed a strong foundation in programming languages such as Java, C, and Python,
+            and I am proficient in using software tools like GITHUB.
+            I am eager to apply my theoretical knowledge in a practical setting and contribute to a dynamic
+            organization.
+            I am excited about the opportunity to learn from experienced professionals, collaborate with a talented
+            team,
+            and make meaningful contributions.
+          </p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+
+              <li><span>Web Development</span><br />Web app Devlopment</li>
+              <li>Java</li>
+              <li>C</li>
+              <li>Python</li>
+              <li>Data Structure</li>
+              <li>HTML</li>
+              <li>JavaScript</li>
+              <li>OOPS</li>
+              <li>Content Writing</li>
+              <li>Public Relation Strategy</li>
+
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Web Devlopment</span><br />Kiran Foundation</li>
+              <li><span>Web Development</span><br />Bharat Intern</li>
+              <li><span>Head of Public Relations</span><br />E-CELL SGSITS</li>
+
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2021-25</span><br />B.Tech from SGSITS INDORE</li>
+              <li><span>2019-20</span><br />12th from Sagar</li>
+              <li><span>2017-18</span><br />10th from Sagar</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------services-------->
+
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2> Web Development</h2><br />
+          <p>With expertise in HTML, CSS, and JavaScript, I specialize in crafting engaging websites that are optimized
+            for
+            performance, accessibility, and search engine visibility. </p>
+          <a href="#">Learn More</a>
+        </div>
+
+        <div>
+          <i class="fa-brands fa-github"></i>
+          <h2> Github</h2><br />
+          <p>From setting up Git workflows to resolving merge conflicts, I provide guidance and best practices to
+            optimize the usage
+            of GitHub for efficient and organized software development.</p>
+          <a href="#">Learn More</a>
+        </div>
+
+        <div>
+          <i class="fa-sharp fa-regular fa-file-excel"></i>
+          <h2> MS Excel/Office</h2><br />
+          <p>With advanced knowledge in MS Excel/Office suite, I offer comprehensive support in creating professional
+            presentations,
+            developing complex spreadsheets, and optimizing workflow processes. </p>
+          <a href="#">Learn More</a>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+  <!---------------------portfolio------------->
+
+  <div id="portfolio">
+    <div class="container">
+
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/w1.png" alt="img">
+          <div class="layer">
+            <h3>Web Development</h3>
+            <p> As an intern at Bharat Intern, I successfully completed three projects in basic web development. These
+              projects included
+              creating responsive and visually appealing websites, implementing essential functionalities, and
+              optimizing user experience. </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/w2.png" alt="img">
+          <div class="layer">
+            <h3>Web Development</h3>
+            <p> During my time at Kiran Foundation, I had the opportunity to contribute to the development of their
+              website using the Jekyll concept.
+              By utilizing Jekyll's templating system and modular approach, I ensured seamless integration of content
+              and improved the overall website performance. </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/w3.png" alt="img">
+          <div class="layer">
+            <h3>Web Development</h3>
+            <p> During my involvement with E-cell, I made significant contributions to the development of their website.
+              Collaborating closely with the team, I played a
+              key role in designing and implementing various features and functionalities to enhance the user
+              experience. </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="btn">See More</a>
+    </div>
+
+  </div>
+
+  <!--------contact------------->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Conatct Me</h1>
+          <p><a href="mailto:mussujain1906@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            jain********@gmail.com
+          </p>
+          <p><i class="fa-sharp fa-solid fa-square-phone"></i>9516******</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://www.linkedin.com/in/shreya-jain-107a60238/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+          </div>
+          <a herf="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+
+        </div>
+        <div class="contact-right">
+          <form action="">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="mail" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="copyright">
+      <p>
+        Copyright © Shreya.PortfolioProject <i class="fa-sharp fa-solid fa-heart-pulse"></i>
+      </p>
+    </div>
+  </div>
+
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+
+</body>
+
+</html>
